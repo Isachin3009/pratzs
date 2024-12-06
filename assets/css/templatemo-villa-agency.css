@@ -130,7 +130,7 @@ body {
 }
 
 .section {
-  margin-top: 120px;
+  margin-top: 80px;
 }
 
 .section-heading {
@@ -1237,11 +1237,11 @@ Contact Style
 */
 
 .contact {
-  background-image: url(../images/contact-bg.jpg);
+  /* background-image: url(../images/contact-bg.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  padding: 100px 0px 250px 0px;
+  padding: 80px 0px 250px 0px;
   position: relative;
 }
 
@@ -1269,10 +1269,14 @@ Contact Style
 
 .contact-content .phone {
   margin-right: 15px;
+  background-color:transparent;
+  box-shadow: none;
 }
 
 .contact-content .email {
   margin-left: 15px;
+  background-color:transparent;
+  box-shadow: none;
 }
 
 .contact-content .item img {
@@ -1297,14 +1301,23 @@ Contact Style
   margin-left: 30px;
   border-radius: 10px;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
-  padding: 35px 30px;
+  padding: 25px 20px;
   background-color: #fff;
+  height: 500px;
 }
 
 .contact-content #contact-form label {
   font-size: 15px;
   color: #3a3a3a;
   margin-bottom: 15px;
+}
+.col-lg-8{
+  margin-top: 7px;
+  background-color: #0071f8;
+  padding-left: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .contact-content #contact-form input {
@@ -1320,7 +1333,7 @@ Contact Style
 
 .contact-content #contact-form textarea {
   width: 100%;
-  height: 150px;
+  /* height: 150px; */
   max-height: 180px;
   border-radius: 22px;
   background-color: #f6f6f6;
@@ -1331,7 +1344,7 @@ Contact Style
 }
 
 .contact-content #contact-form button {
-  background-color: #1e1e1e;
+  background-color: #3c91fa;
   height: 44px;
   border-radius: 22px;
   padding: 0px 20px;
@@ -1358,9 +1371,12 @@ footer.footer-no-gap {
 }
 
 footer {
-  margin-top: 150px;
-  background-color: #1e1e1e;
-  min-height: 100px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #1e1e1e */
+  /* min-height: 80px; */
 }
 
 footer p {
@@ -1806,9 +1822,13 @@ body {
   }
   .contact-content .phone {
     margin-right: 0px;
+    background-color:transparent;
+    box-shadow: none;
     margin-bottom: 20px;
   }
   .contact-content .email {
+    background-color:transparent;
+    box-shadow: none;
     margin-left: 0px;
     margin-bottom: 45px;
   }
