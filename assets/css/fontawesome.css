@@ -178,6 +178,7 @@ nav {
   font-weight: 700;
   color: var(--text-dark);
   text-align: center;
+  margin-top: 20px;
 }
 
 .links ul {
@@ -197,6 +198,7 @@ nav {
   border-radius: 5px;
   box-shadow: 10px 10px 15px #d7dbe6, -10px -10px 15px var(--white);
   border: 2px solid hwb(202 60% 0%);
+  margin-top: 20px;
 
 }
 .bx{
