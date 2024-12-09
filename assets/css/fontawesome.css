@@ -103,12 +103,12 @@ body {
 
 .outer-circle svg circle{
   fill: none;
-  background-color: transparent;
+  background-color:black;
   stroke-width: 15px;
-  stroke: url(#GradientColor);
+  stroke: #ffba41;
   stroke-linecap: round;
   stroke-dasharray: 465;
-  stroke-dashoffset: 464; 
+  /* stroke-dashoffset: 464;  */
 }
 
 .outer-circle h2.counter{
@@ -281,6 +281,7 @@ nav {
   justify-content: center;
   gap: 2rem;
   flex-wrap: wrap;
+  margin-right: 20px;
 }
 
 .links h4 {
